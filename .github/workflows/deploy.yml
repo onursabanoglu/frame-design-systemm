@@ -16,7 +16,7 @@ jobs:
     - name: Setup Node.js (Specify Node.js version if needed)
       uses: actions/setup-node@v2
       with:
-        node-version: '14'  # Projeye bağlı olarak Node.js sürümünü güncelleyin
+        node-version: '18'  # Projeye bağlı olarak Node.js sürümünü güncelleyin
 
     - name: Install Dependencies and Build
       run: |
